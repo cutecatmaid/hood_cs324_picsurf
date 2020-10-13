@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color:#D2738A;
+	font-family:verdana, sans-serif;
+	}
+	
+a {
+	text-decoration:none;
+	
+	}
+	
+a:link {
+	color:#8e7bb7;
+	}
+	
+a:visited {
+	color:#8e7bb7;
+	}
+	
+a:hover {
+	color:#8e7bb7;
+	}
+	
+a:active {
+	color:#8e7bb7;
+	}
+
+#static-index {
+	
+	background-color:white;
+	width:800px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+	text-align:center;
+	padding-top:40px;
+	
+	}
+	
+h1 {
+	font-size:20px;
+	font-weight:normal;
+	clear:both;
+	}
+	
+h6 {
+	font-size:9px;
+	
+	}
+	
