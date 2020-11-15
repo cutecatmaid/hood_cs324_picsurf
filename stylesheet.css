@@ -306,7 +306,7 @@ li ul {
     text-align: center;
 }
 
-#main-body .next {
+.next {
     position: fixed;
     top: 90%;
     right: 0%;
