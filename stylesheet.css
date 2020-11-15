@@ -2,13 +2,12 @@
 /* CSS Document */
 
 body {
-	background-color:#D2738A;
+	background-color:#F7F7F7;
 	font-family:verdana, sans-serif;
 	}
 	
 a {
 	text-decoration:none;
-	
 	}
 	
 a:link {
@@ -34,20 +33,433 @@ a:active {
 	height:auto;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:40px;
+	margin-top:10px;
 	text-align:center;
 	padding-top:40px;
 	
 	}
+
+#static-index input[type=text] {
+  float: center;
+  padding: 6px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
 	
 h1 {
 	font-size:20px;
 	font-weight:normal;
-	clear:both;
 	}
 	
 h6 {
 	font-size:9px;
-	
 	}
+
+/* # Header # */
+.superHeader {
+  color: #8873B7;
+  background-color: #998BB7;
+  height: 2em;
+}
+
+.superHeader a {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 91%;
+  margin: 0.25ex;
+  padding: 0 0.5ex 0 0.25ex;
+}
+.superHeader a:hover {
+  text-decoration: none;
+  color: purple;
+  background-color: transparent;
+}
+
+.superHeader div {
+  position: absolute;
+}
+
+.superHeader .left { left: 0.6em; }
+.superHeader .right { right: 0.4em; }
+
+.midHeader {
+  color: black;
+  background-color: #8E7BB7;
+  border: solid 0 #8873B7;
+  border-width: 2px 0;
+}
+
+.headerTitle {
+  color: black;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 233%;
+  font-weight: normal;
+  margin: 0 0 0 4mm;
+  padding: 0 0;
+}
+#headerSubTitle {
+  font-size: 50%;
+  font-style: italic;
+  margin-left: 1em;
+}
+
+.headerTitle a {
+  color: white;
+  text-decoration: none;
+}
+.headerTitle a:hover {
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.subHeader {
+  display: none;
+  color: black;
+  background-color: #F7F7F7;
+  margin: 0;
+  padding: 1ex 1ex 1ex 1.5mm;
+}
+
+.subHeader a {
+  color: blue;
+  background-color: #E8D8A8;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 0 0 0;
+}  
+.subHeader a:hover {
+  color: purple;
+  background-color: #F7F7F7;
+  text-decoration: none;
+}
+
+.superHeader .highlight, .subHeader .highlight {
+  color: black;
+  background-color: transparent;
+}
+
+
+/* # Side # */
+#side-bar {
+  width: 16em;
+  float: left;
+  clear: left;
+  border-right: 1px gray;
+}
+
+#side-bar div {
+  border-bottom: 1px #E0D0C0;
+}
+
+.sideBarTitle {
+  color: black;
+  font-weight: bold;
+  margin: 0 0 0.5em 2mm;
+  padding: 1em 0 0 0;
+}
+
+#side-bar ul {
+  list-style-type: none;
+  list-style-position: outside;
+  margin: 0;
+  padding: 0 0 0.3em 0;
+}
+
+li ul {
+  padding-left: 1.0em;
+}
+
+#side-bar li {
+  margin: 0;
+  padding: 0.1ex 0;  /* Circumvents a rendering bug (?) in MSIE 6.0  XXX should move to iehacks.css, this causes an ugly gap */
+}
+
+#side-bar a {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+  text-transform: none;
+  margin: 0;
+  padding: 0.35em 1ex 0.35em 2mm;
+  display: block;
+  font-weight: bold;
+  font-size: 105%;
+  border-left: black solid 0.2em;
+}
+
+.thisPage, .thisPage a {
+  color: black;
+  background-color: gray;
+  padding-left: 5mm;
+}
+
+#side-bar a:hover {
+  color: white;
+  background-color: blue;
+  border-left: black solid 0.2em;
+  text-decoration: none;
+}
+
+.sideBarText {
+  line-height: 1.5em;
+  margin: 0 0 1em 0;
+  padding: 0 1.5ex 0 2.5mm;
+  display: block;
+}
+
+#side-bar .sideBarText a {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+#side-bar .sideBarText a:hover {
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.lighterBackground {
+  color: inherit;
+  background-color: gray;
+}
+
+
+/* # Main Copy # */
+#main-body {
+  max-width: 70em;
+  color: black;
+  background-color: transparent;
+  text-align: justify;
+  word-wrap: break-word;
+  line-height: 1.5em;
+  margin: 0em 0 0 16em;
+  padding: 0.5mm 5mm 5mm 5mm;
+  border-left: 2px solid #8873B7;
+}
+
+#bodyText {
+  margin: 0 0 0 15.5em;
+  padding: 2mm 5mm 2mm 5mm;
+}
+
+#main-body p {
+  margin: 1em 1ex 1em 1ex !important; /* Need !important so troff-generated pages don't look totally squezed */
+  padding: 0;
+}
+
+#main-body a id {
+  color: black;
+  background-color: transparent;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#main-body a {
+  color: blue;
+  background-color: transparent;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#main-body a:hover {
+  text-decoration: none;
+  color: purple;
+  background-color: transparent;
+}
+
+#main-body .search {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    min-height: 10vh;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    background: white;
+}
+
+#main-body input[type=text] {
+  float: center;
+  padding: 6px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 17px;
+}
+
+#main-body .searchbutton {
+    padding: 0.5ren 3ren;
+    margin-left: 10px;
+    background-color: #8873B7;
+    color: white;
+    font-size: 1.2ren;
+    cursor: pointer;
+    text-align: center;
+}
+
+#main-body .next {
+    position: fixed;
+    top: 90%;
+    right: 0%;
+    padding: .5ren 0.5ren;
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#main-body .gallery {
+    width: 50%;
+    margin: 12vh 50%;
+    transform: translateX(-90%);
+    display: grid;
+    grid-template-columns: repeat(1, 100px);
+    background-size: cover;
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+#main-body .gallery div {
+    position: relative;
+    background-size: cover;
+}
+
+#main-body img {
+    margin-left: 5px;
+    height: auto;
+    max-width: 100px;
+    background-size: cover;
+    object-position: center;
+    cursor: pointer;
+}
+
+#main-body h1 {
+  color: #806FA4;
+  background-color: transparent;
+  font-size: 145.5%;
+  font-weight: bold;
+  margin: 2em 0 0 0;
+  padding: 0.5ex 0 0.5ex 0.6ex;
+  border-bottom: 2px solid #222222;
+}
+
+#main-body h2 {
+  color: #806FA4;
+  background-color: transparent;
+  font-size: 115.5%;
+  font-weight: bold;
+  font-style: italic;
+  margin: 2em 0 0 0;
+  border-bottom: 1px solid #222222;
+}
+
+#main-body h3 {
+  color: #806FA4;
+  background-color: transparent;
+  font-size: 125.5%;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#main-body h4 {
+  color: #806FA4;
+  background-color: transparent;
+  font-size: 105%;
+  font-weight: bold;
+  font-style: italic;
+  margin: 2em 0 0 0;
+  border-bottom: 1px solid #222222;
+}
+
+#main-body h5 {
+  color: #806FA4;
+  background-color: transparent;
+  font-size: 85%;
+  font-weight: bold;
+  margin: 2em 0 0 0;
+}
+
+dl {
+  margin: 1em 1ex 2em 1ex;
+  padding: 0;
+}
+
+dt {
+  font-weight: bold;
+  margin: 0 0 0 0;
+  padding: 0;
+}
+
+dd {
+  margin: 0 0 2em 2em;
+  padding: 0;
+}
+
+
+/* # Footer # */
+#footer {
+  color: #400000;
+  background: transparent;
+  font-size: 90%;
+  margin: 0;
+  padding: 1em 2.5mm .35em 2.5mm;
+  clear: both;
+  border: solid 0 transparent;
+  border-width: 2px 0 0 0;
+}
+
+#footer .left {
+  text-align: left;
+  line-height: 1.45em;
+  float: left;
+  clear: left;
+}
+
+#footer .right {
+  text-align: right;
+  line-height: 1.45em;
+}
+
+#footer a {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: none;
+  color: purple;
+  background-color: transparent;
+}
+
+#wordbox {
+    /*opacity: 0;*/
+    margin: 30px auto 0;
+    display: block;
+    width: 296px;
+    height: 32px;
+    font-size: 22px;
+    text-align: center;
+    background: #e0e0e0;
+    color: black;
+}
+
+#button {
+    font-size: 12px;
+    padding: 1em 1em;
+    margin: 0 auto 12px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
 	
