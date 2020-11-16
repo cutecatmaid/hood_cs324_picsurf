@@ -336,8 +336,8 @@ li ul {
 
 #main-body img {
     margin-left: 5px;
-    height: 300px;
-    max-width: 200px;
+    height: auto;
+    max-width: 100px;
     background-size: cover;
     object-position: center;
     cursor: pointer;
@@ -462,4 +462,3 @@ dd {
     text-align: center;
     font-weight: bold;
 }
-	
