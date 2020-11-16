@@ -3,7 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<title>PicSurf</title>
-
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<link type="text/css" rel="stylesheet" media="screen and (max-width: 800px)" href="/stylesheetU800px.css">
 </head>
@@ -58,12 +57,10 @@
 	<div class="searchbutton">Search</div>
 	</div>
 	</center>
-	<div class="gallery"><script src="./app.js"></script></div>
-		<div class="next">Next Page</div>	
-	
+		<div class="gallery"><script src="./app.js"></script></div>
+		<div class="next">Next Page</div>
 </div>
 <div id="footer">
 </div>
-	
 </body>
-</html>
+</html> 
