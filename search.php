@@ -59,8 +59,9 @@
 	</div>
 	</center>
 
-		<div class="gallery"><script src="./app.js"></script></div>
+		<div class="gallery"></div>
 		<div class="next">Next Page</div>
+		<script src="./app.js"></script>
 </div>
 <div id="footer">
 </div>
