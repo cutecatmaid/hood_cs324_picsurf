@@ -59,7 +59,7 @@
 	</div>
 	</center>
 
-		<div class="gallery"><script src="./app.js"></script></div>
+		<div class="gallery"></div> <script src="./app.js"></script>
 		<div class="next">Next Page</div>
 		
 </div>
