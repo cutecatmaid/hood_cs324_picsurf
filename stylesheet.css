@@ -336,8 +336,8 @@ li ul {
 
 #main-body img {
     margin-left: 5px;
-    height: auto;
-    max-width: 100px;
+    height: 300px;
+    max-width: 200px;
     background-size: cover;
     object-position: center;
     cursor: pointer;
