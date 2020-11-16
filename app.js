@@ -14,7 +14,7 @@ input.addEventListener("input", (e) => {
 
 async function CuratedPhotos(pagenr) {
     const data = await fetch(
-        `https://api.pexels.com/v1/curated?per_page=5&page=${pagenr}`, {
+        `https://api.pexels.com/v1/curated?per_page=10&page=${pagenr}`, {
             method: "GET",
             headers: {
                 Accept: "application/json",
@@ -37,7 +37,7 @@ async function CuratedPhotos(pagenr) {
 
 async function SearchPhotos(query, pagenr) {
     const data = await fetch(
-        `https://api.pexels.com/v1/search?query=${query}&per_page=5&page=${pagenr}`, {
+        `https://api.pexels.com/v1/search?query=${query}&per_page=10&page=${pagenr}`, {
             method: "GET",
             headers: {
                 Accept: "application/json",
