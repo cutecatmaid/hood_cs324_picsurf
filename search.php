@@ -58,10 +58,9 @@
 	<div class="searchbutton">Search</div>
 	</div>
 	</center>
-
-		<div class="gallery"></div> <script src="./app.js"></script>
-		<div class="next">Next Page</div>
-		
+	<div class="gallery"><script src="./app.js"></script></div>
+		<div class="next">Next Page</div>	
+	
 </div>
 <div id="footer">
 </div>
