@@ -78,7 +78,7 @@ function clear() {
 next.addEventListener("click", () => {
     if (!search) {
         pagenr++;
-        CurartedPhotos(pagenr);
+        CuratedPhotos(pagenr);
     } else {
         if (query.value === "") return;
         pagenr++;
