@@ -75,7 +75,7 @@ function clear() {
 
 }
 
-next.addEventListener("click", () => {
+.next.addEventListener("click", () => {
     if (!search) {
         pagenr++;
         CuratedPhotos(pagenr);
